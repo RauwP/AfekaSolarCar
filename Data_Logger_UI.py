@@ -1,3 +1,5 @@
+#This is the data logger for the ORNA Solar Car Project, Its designed to run on Rasperry Pi 4b.
+#It collects the data serially through the ttys0 port, It saves it and presents it in a real time updating GUI, with buttons to plot it.
 import tkinter as tk
 from tkinter import ttk
 import serial
